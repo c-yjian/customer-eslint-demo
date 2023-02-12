@@ -4,6 +4,7 @@
         "es2021": true
     },
     "plugins": [
+        // 这是此前使用yo eslint:plugin 生成自定义插件的ID
         "diylint"
     ],
     "extends": "standard",
