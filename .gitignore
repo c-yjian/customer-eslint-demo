@@ -2,3 +2,4 @@ eslint-plugin-demo/node_modules
 dist
 yarn.lock
 package.json.lock
+demo-app/node_modules
