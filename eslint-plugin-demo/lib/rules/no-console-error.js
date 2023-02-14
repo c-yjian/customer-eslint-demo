@@ -29,7 +29,6 @@ module.exports = {
     return {
       // visitor functions for different types of nodes
       'MemberExpression': (node) => {
-        console.log(`node content`, node);
         // 如果在ast中满足以下条件，就用 context.report() 进行对外警告⚠️
         if (node.property.name === 'error' && node.object.name === 'console') {
             context.report({
