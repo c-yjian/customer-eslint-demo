@@ -1,7 +1,7 @@
-console.error(123)
+const imgUrl = 'https://www.xx.x'
 
 const getAge = () => {
-  console.error('This is error message');
+  console.error(imgUrl)
 }
 
-getAge();
+getAge()
